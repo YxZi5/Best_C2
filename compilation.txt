@@ -1,0 +1,1 @@
+g++.exe -o a.exe agent.cpp libcurl.dll library.cpp -static
