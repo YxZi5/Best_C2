@@ -1,0 +1,197 @@
+body{
+	width: 100%;
+}
+
+code {
+	color: white;
+/*    	background: #272822;*/
+	background: #16191d;
+ 	display: block;
+ 	font-size: 12pt;
+ 	line-height: 11pt;
+	padding: 8px;
+ 	border: 1.5px solid #79b8ff;
+ 	white-space: break-spaces;
+ 	overflow-wrap: break-word;
+}
+
+/*@media only screen and (max-width: 516) {
+
+	.nav {
+		font-size: 10pt;
+	}
+
+}*/
+
+/*@media only screen and (max-width: 400) {
+	h1 {
+		font-size: 15pt;
+	}
+
+	p {
+		font-size: 9pt;
+	}
+}*/
+
+@media only screen and (max-width: 750px) {
+	h1 {
+		font-size: 17pt;
+	}
+
+	p {
+		font-size: 11pt;
+	}
+	code {
+		color: white;
+		background: #16191d;
+	 	display: block;
+	 	font-size: 8pt;
+	 	line-height: 11pt;
+		padding: 8px;
+	 	border: 1.5px solid #79b8ff;
+	 	white-space: break-spaces;
+	 	overflow-wrap: break-word;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	
+	input[type="text"],
+	input[type="number"],
+	input[type="email"],
+	input[type="password"],
+	textarea {
+		width: 100px;
+		height: 15px;
+	  padding: 5px;
+/*	  margin: 10px 0;*/
+	  border-radius: 5px;
+	  border: 1px solid #ccc;
+	  font-size: 5px;
+	  outline: none;
+	}
+
+	.comm {
+		height: 45px;
+		width: 100px;
+		padding: 5px;
+	}
+
+	.dodaj {
+		width: 150px;
+	}
+}
+
+.post {
+	width: 70%;
+	margin: auto;
+	font-size: 20px;
+	padding: 10px;
+}
+
+img {
+/*	max-width: 650px;*/
+	max-width: 70%;
+}
+
+.post img {
+	display: block;
+	margin: auto;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	display: flex;
+	min-height: 80px;
+	background-color: #24292e;
+	font-family: 'Trebuchet MS', sans-serif;
+	padding: 10px;
+	box-shadow: 0 1px 10px #00000080;
+}
+.title {
+	width: 50%;
+	color: white;
+	font-size: 25px;
+	margin-left: 15%;
+	margin-top: 1%;
+}
+.nav {
+	width: 50%;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 15%;
+	margin-top: 1%;
+	word-spacing: 25px;
+}
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover {
+	color: #79b8ff;
+}
+
+main {
+	background-color: #1b1f23;
+	color: white;
+	padding: 10px;
+	min-height: 850px;
+}
+footer {
+	background-color: #c8e1ff;
+	min-height: 85px;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+	box-shadow: 5px 5px 10px
+}
+footer p {
+	margin-top: 1%;
+}
+footer a {
+	margin-bottom: 10px;
+}
+hr {
+	width: 70%;
+	margin: auto;
+}
+#har {
+	width: 100%;
+}
+/*Komentarze*/
+form {
+    width: 70%;
+    margin: auto;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  outline: none;
+}
+
+/*textarea {
+	height: 150px;
+	width: 300px;
+}*/
+
+/* Stylowanie przycisku submit */
+input[type="submit"] {
+  background-color: #79b8ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
