@@ -8,5 +8,7 @@ Simple c2 server, with one main functionality - access to shell of infected host
 Client use libcurl to send requests to server. In Agent directory I attached libcurl.dll library witch is used during the compilation. But you can downloand libcurl yourself from this website: https://curl.se/download.html
 Attached library is 32-bit library, because I during tests I compiling malware to 32-bit binary with mingw compiler. Compilation process is also attached in file compilation.txt
 
+You can also take a look at simple_client.py is python script which do the same thing as client writed in c++, but python is more readable.
+
 Presentation the functionality: https://youtu.be/lquoPNmM7s4?si=DMtImyFi6JIfGHnx
 
